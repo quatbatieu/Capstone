@@ -26,6 +26,9 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+.header .container .toggler{
+  display: none;
+}
 .header .container .menu {
   max-width: 1280px;
   margin: 0 auto;
@@ -423,7 +426,7 @@ html {
   .container .navbar{
     display: none;
   }
-  .container .toggler{
+  .header .container .toggler{
     display: block;
     font-size: 20px;
     position: absolute;
@@ -459,7 +462,7 @@ html {
   .container .navbar{
     display: none;
   }
-  .container .toggler{
+  .header .container .toggler{
     display: block;
     font-size: 20px;
     position: absolute;
@@ -495,7 +498,7 @@ html {
   .container .navbar{
     display: none;
   }
-  .container .toggler{
+  .header .container .toggler{
     display: block;
     font-size: 20px;
     position: absolute;
@@ -531,7 +534,7 @@ html {
   .container .navbar{
     display: none;
   }
-  .container .toggler{
+  .header .container .toggler{
     display: block;
     font-size: 20px;
     position: absolute;
