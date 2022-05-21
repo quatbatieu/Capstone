@@ -1,0 +1,398 @@
+body{
+    background-color: #f7f7f7;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.diner{
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-image: url(./img/banner1.jpg);
+    height: 430px;
+    margin-top: 100px;
+    /* color: #f7f7f7; */
+}
+.diner .container{
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #00070a80;
+    height: 350px;
+}
+.diner .container .overKabuto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.diner .container .overKabuto h1 a{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.diner .container .overplay a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #ff6600;
+    border: 2px solid #ff6600;
+    text-transform: capitalize;
+}
+.diner .container .overHan{
+    padding: 45px 30px;
+}
+.diner .container .overHan .emailw3l{
+    text-align: left;
+    margin: 0 auto;
+}
+.diner .container .overHan .emailw3l span{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 42px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+.diner .container .overHan .emailw3l p{
+    color: #fff;
+}
+.diner .container .overHan .buttona{
+    display: inline-block;
+    margin-top: 30px;
+}
+.diner .container .overHan .buttona a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: transparent;
+    border: 2px solid#fff;
+    text-transform: capitalize;
+}
+.about{
+    width: 100%;
+    padding: 45px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.about .title {
+    width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.about .title p{
+    font-size: 26px;
+    line-height: 35px;
+    color: #232121;
+}
+.about .services{
+    text-align: left;
+    padding: 0 30px;
+    width: 60%;
+}
+.about .services .para{
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #161c2db3;
+}
+.popular{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.popular .containera{
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+.popular .containera h1{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #232121;
+    font-family: 'Quicksand', sans-serif;
+}
+.popular .main{
+    padding: 60px;
+}
+.popular .main .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.popular .main .row .col{
+    width: calc(100% / 3);
+    padding: 0 10px;
+    margin-bottom: 30px;
+    display: block;
+    box-sizing: border-box;
+}
+.popular .main .row .col .item{
+    padding-bottom: 30px;
+}
+.popular .main .row .col .item img{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.popular .main .row .col .info a{
+    text-align: center;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: #232121;
+}
+.Celebrate{
+    padding: 45px 30px;
+    background-color: #f1f0f7;
+}
+.Celebrate .come{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.Celebrate .come .imgs{
+    width: 50%;
+}
+.Celebrate .come .imgs img{
+    width: 100%;
+}
+.Celebrate .come .party{
+    width: 50%;
+    text-align: left;
+    padding-left: 25px;
+}
+.Celebrate .come .party span{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #232121;
+}
+.Celebrate .come .party p{
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    color:#161c2db3;
+    line-height: 28px;
+}
+.Celebrate .come .party a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #ff6600;
+    border: 2px solid #ff6600;
+    text-transform: capitalize;
+}
+.Deliciousness{
+    background-image: url(./img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.Deliciousness .containerb{
+    background-color: #00070aa8;
+    padding: 60px;
+    height: 330px;
+}
+.Deliciousness .containerb .jumping{
+    text-align: center;
+    padding-top: 45px;
+}
+.Deliciousness .containerb .jumping span{
+    color: #fff;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 50px 0 30px 0;
+}
+.Deliciousness .containerb .jumping p{
+    margin: 10px 0 30px 0;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+.Deliciousness .containerb .jumping a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: transparent;
+    border: 2px solid#fff;
+    text-transform: capitalize;
+}
+.Deliciousnessa{
+    padding: 45px 30px;
+    background-color: #fff;
+}
+.Deliciousnessa .jumpinga{
+    text-align: center;
+}
+.Deliciousnessa .jumpinga img{
+    height: auto;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 25px;
+}
+.Deliciousnessa .jumpinga span{
+    font-size: 30px;
+    line-height: 48px;
+    margin: 30px 0 20px 0;
+    font-weight: bold;
+    color: #232121;
+    margin-bottom: 20px;
+}
+.Deliciousnessa .jumpinga p{
+    color: #161c2db3;
+    margin: 0px 0 30px 0;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.Deliciousnessa .jumpinga a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: #ff6600;
+    border: 2px solid #ff6600;
+    text-transform: capitalize;
+}
+.footer{
+    margin-bottom: 500px;
+    background-color: #000000;
+}
+.footer .infora{
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer .infora .lefta{
+    padding-left: 5%;
+    text-align: left;
+    padding-right: 10px;
+    width: 50%;
+}
+.footer .infora .lefta span{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer .infora .lefta p{
+    line-height: 28px;
+    font-size: 16px;
+    color: #a0a0a0;
+    margin: 10px 0;
+}
+.footer .infora .righta{
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.footer .infora .righta span{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer .infora .righta .adress{
+    margin: 15px 0;
+}
+.footer .infora .righta .adress span{
+    color: #eee;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer .infora .righta .adress p{
+    line-height: 28px;
+    font-size: 16px;
+    color: #a0a0a0;
+    margin: 5px 0;
+}
+.footer .reserved{
+    padding: 1px 0;
+    background-color: #000000;
+    border-top: 1px solid #222;
+    text-align: center;
+}
+.footer .reserved p{
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff;
+}
+@media screen and (max-width: 1200px){
+    .popular .main .row .col{
+        width: calc(100% / 2);
+        padding: 0 10px;
+        margin-bottom: 30px;
+        display: block;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 992px){
+    .popular .main .row .col{
+        width: calc(100% / 2);
+        padding: 0 10px;
+        margin-bottom: 30px;
+        display: block;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 768px){
+    .popular .main .row .col{
+        width: calc(100% / 2);
+        padding: 0 10px;
+        margin-bottom: 30px;
+        display: block;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 576px){
+    .popular .main .row .col{
+        width: calc(100% / 2);
+        padding: 0 10px;
+        margin-bottom: 30px;
+        display: block;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
+
+
+
+
