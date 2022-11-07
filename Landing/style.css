@@ -20,7 +20,13 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-.header .container .toggler{
+.header .container .toggler {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  margin-left: 8px;
+  cursor: pointer;
   display: none;
 }
 .header .container .menu {
@@ -36,13 +42,13 @@ html {
 .header .container .menu .logo {
   color: #ffffff;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 700;
 }
 .header .container .menu .navbar a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 25px;
   border-bottom: 2px solid transparent;
 }
@@ -1192,7 +1198,42 @@ html {
 .arrow:hover i {
   color: red;
 }
-@media screen and (max-width: 1200px){
+.slider{
+  position: fixed;
+  width: 0;
+  height: 90vh;
+  background: #ffdfc9;
+  text-align: center;
+  top: 0;
+  z-index: 10;
+  left: 0;
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+.slider a{
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+.slider a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.slider button{
+  position: absolute;
+  top: 18px;
+  right: 40px;
+  border: none;
+  background: none;
+  font-size: 15px;
+}
+.slider button:hover{
+  color: red;
+}
+@media screen and (max-width: 1200px) {
   .arrow {
     max-width: 1200px;
   }
@@ -1200,16 +1241,16 @@ html {
     max-width: 1200px;
     position: relative;
   }
-  .container .navbar {
+  /* .container .navbar {
     display: none;
-  }
-  .header .container .toggler {
+  } */
+  /* .header .container .toggler {
     font-size: 20px;
     display: block;
     position: absolute;
     top: 50px;
     right: 50px;
-  }
+  } */
   .containers {
     max-width: 1200px;
   }
@@ -1266,31 +1307,31 @@ html {
   .team .main .row .col:nth-child(3) {
     margin-top: 30px;
   }
-  .team .container1{
+  .team .container1 {
     padding: 40px 0;
   }
-  .new .container2{
+  .new .container2 {
     padding: 40px 0;
   }
-  .new .container2 .main .row .col{
+  .new .container2 .main .row .col {
     width: calc(100% / 2);
     margin-bottom: 20px;
     padding: 5px 15px;
   }
-  .service .row .col{
+  .service .row .col {
     width: calc(100% / 2);
     padding: 0px 15px;
     margin-bottom: 20px;
   }
-  .stat .row .col{
+  .stat .row .col {
     width: calc(100% / 4);
     padding: 0 15px;
   }
-  .latest .main .row .col{
+  .latest .main .row .col {
     width: calc(100% / 1);
     padding: 0 15px;
   }
-  .contactcta{
+  .contactcta {
     grid-template-columns: 1fr;
   }
   .footer .top .row .col {
@@ -1303,7 +1344,7 @@ html {
     display: none;
   }
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .arrow {
     max-width: 992px;
   }
@@ -1316,8 +1357,8 @@ html {
   }
   .header .container .toggler {
     font-size: 20px;
-    display: block;
     position: absolute;
+    display: block;
     top: 50px;
     right: 50px;
   }
@@ -1377,31 +1418,31 @@ html {
   .team .main .row .col:nth-child(3) {
     margin-top: 30px;
   }
-  .team .container1{
+  .team .container1 {
     padding: 40px 0;
   }
-  .new .container2{
+  .new .container2 {
     padding: 40px 0;
   }
-  .new .container2 .main .row .col{
+  .new .container2 .main .row .col {
     width: calc(100% / 2);
     margin-bottom: 20px;
     padding: 5px 15px;
   }
-  .service .row .col{
+  .service .row .col {
     width: calc(100% / 2);
     padding: 0px 15px;
     margin-bottom: 20px;
   }
-  .stat .row .col{
+  .stat .row .col {
     width: calc(100% / 4);
     padding: 0 15px;
   }
-  .latest .main .row .col{
+  .latest .main .row .col {
     width: calc(100% / 1);
     padding: 0 15px;
   }
-  .contactcta{
+  .contactcta {
     grid-template-columns: 1fr;
   }
   .footer .top .row .col {
@@ -1414,7 +1455,7 @@ html {
     display: none;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .arrow {
     max-width: 768px;
   }
@@ -1488,31 +1529,31 @@ html {
   .team .main .row .col:nth-child(3) {
     margin-top: 30px;
   }
-  .team .container1{
+  .team .container1 {
     padding: 40px 0;
   }
-  .new .container2{
+  .new .container2 {
     padding: 40px 0;
   }
-  .new .container2 .main .row .col{
+  .new .container2 .main .row .col {
     width: calc(100% / 2);
     margin-bottom: 20px;
     padding: 5px 15px;
   }
-  .service .row .col{
+  .service .row .col {
     width: calc(100% / 1);
     padding: 0px 15px;
     margin-bottom: 20px;
   }
-  .stat .row .col{
+  .stat .row .col {
     width: calc(100% / 2);
     padding: 0 15px;
   }
-  .latest .main .row .col{
+  .latest .main .row .col {
     width: calc(100% / 1);
     padding: 0 15px;
   }
-  .contactcta{
+  .contactcta {
     grid-template-columns: 1fr;
   }
   .footer .top .row .col {
@@ -1599,31 +1640,31 @@ html {
   .team .main .row .col:nth-child(3) {
     margin-top: 30px;
   }
-  .team .container1{
+  .team .container1 {
     padding: 40px 0;
   }
-  .new .container2{
+  .new .container2 {
     padding: 40px 0;
   }
-  .new .container2 .main .row .col{
+  .new .container2 .main .row .col {
     width: calc(100% / 1);
     margin-bottom: 20px;
     padding: 5px 15px;
   }
-  .service .row .col{
+  .service .row .col {
     width: calc(100% / 1);
     padding: 0px 15px;
     margin-bottom: 20px;
   }
-  .stat .row .col{
+  .stat .row .col {
     width: calc(100% / 2);
     padding: 0 15px;
   }
-  .latest .main .row .col{
+  .latest .main .row .col {
     width: calc(100% / 1);
     padding: 0 15px;
   }
-  .contactcta{
+  .contactcta {
     grid-template-columns: 1fr;
   }
   .footer .top .row .col {

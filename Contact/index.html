@@ -15,7 +15,7 @@
     <header class="header" id="header">
         <div class="container">
             <div class="menu">
-                <a class="logo" href="#">Diner</a>
+                <a class="logo" href="../index.html">Diner</a>
                 <nav class="navbar">
                 <a href="../index.html">Home</a>
                 <a href="../services/services.html">Services</a>
@@ -35,9 +35,25 @@
                     <p>Contact Us</p>
                 </ul>
             </div>
-            <button class="toggler">
+            <button class="toggler" onclick="opena()">
               <i class="fa fa-bars"></i>
             </button>          
+        </div>
+        <div class="slider" id="acces">
+          <div class="menus">
+            <nav class="navbars">
+              <a href="../index.html">Home</a>
+              <a href="../services/services.html">Services</a>
+              <a href="../about/about.html">About</a>
+              <a href="../error/error.html">404</a>
+              <a href="#">Landing Page</a>
+              <a href="../Contact/index.html">Contact</a>
+              <a href="../email/index.html">Email</a>
+            </nav>
+          </div>
+          <button onclick="closea()">
+            <i class="fas fa-times" ></i>
+          </button>
         </div>
     </header>
     <section class="contact">
@@ -224,5 +240,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="../Landing/index.js"></script>
 </body>
 </html>

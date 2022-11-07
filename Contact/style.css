@@ -27,6 +27,12 @@ html {
   margin-left: auto;
 }
 .header .container .toggler{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  margin-left: 8px;
+  cursor: pointer;
   display: none;
 }
 .header .container .menu {
@@ -410,6 +416,41 @@ html {
 .arrow:hover i {
   color: red;
 }
+.slider{
+  position: fixed;
+  width: 0;
+  height: 90vh;
+  background: #ffdfc9;
+  text-align: center;
+  top: 0;
+  z-index: 10;
+  left: 0;
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+.slider a{
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+.slider a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.slider button{
+  position: absolute;
+  top: 18px;
+  right: 40px;
+  border: none;
+  background: none;
+  font-size: 15px;
+}
+.slider button:hover{
+  color: red;
+}
 @media screen and (max-width: 1200px){
   .container{
     max-width: 1200px;
@@ -423,16 +464,16 @@ html {
   .arrow{
     max-width: 1200px;
   }
-  .container .navbar{
+  /* .container .navbar{
     display: none;
-  }
-  .header .container .toggler{
+  } */
+  /* .header .container .toggler{
     display: block;
     font-size: 20px;
     position: absolute;
     top: 50px;
     right: 50px;
-  }
+  } */
   .contactcta{
     grid-template-columns: 1fr;
   }
@@ -459,7 +500,7 @@ html {
   .arrow{
     max-width: 992px;
   }
-  .container .navbar{
+  /* .container .navbar{
     display: none;
   }
   .header .container .toggler{
@@ -468,7 +509,7 @@ html {
     position: absolute;
     top: 50px;
     right: 50px;
-  }
+  } */
   .contactcta{
     grid-template-columns: 1fr;
   }
